@@ -35,6 +35,17 @@ $p='SELECT * FROM footer';
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <style>
+        .section__slider {
+            height: 600px;
+            width: 100%;
+        }
+
+        .carousel-item img {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
 
 
     <title>HOME | NCC</title>
@@ -99,31 +110,31 @@ $p='SELECT * FROM footer';
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/carousel-1.jpeg" class="img-fluid">
+                            <img src="images/carousel-1.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-2.jpeg" class="img-fluid">
+                            <img src="images/carousel-2.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-3.jpeg" class="img-fluid">
+                            <img src="images/carousel-3.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-4.jpeg" class="img-fluid">
+                            <img src="images/carousel-4.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-5.jpeg" class="img-fluid">
+                            <img src="images/carousel-5.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-6.jpeg" class="img-fluid">
+                            <img src="images/carousel-6.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-7.jpeg" class="img-fluid">
+                            <img src="images/carousel-7.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-8.jpeg" class="img-fluid">
+                            <img src="images/carousel-8.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-9.jpeg" class="img-fluid">
+                            <img src="images/carousel-9.jpeg">
                         </div>
                         <!-- <div class="carousel-item ">
                             <img src="images/carousel-10.jpeg" class="img-fluid">
@@ -164,7 +175,7 @@ $p='SELECT * FROM footer';
                         <!-- <?php
                             echo $row['notice'];
                         ?> -->
-                        <p align="justify" class="paragraph">
+                        <p class="paragraph">
                         <strong>• Eligity Checking</strong><br>
                         <strong>• Application form Submission</strong><br>
                         <strong>• Physical Test</strong><br>
@@ -209,13 +220,13 @@ $p='SELECT * FROM footer';
                             <!-- <?php
                                 echo $row['events'];
                             ?> -->
-                            <p align="justify" class="paragraph">
-                        <strong>• Drill Sessions</strong><br>
-                        <strong>• B/C Exam preparation</strong><br>
-                        <strong>• Social Activities</strong><br>
-                        <strong>• Personality Development Programmes</strong><br>
-                        <strong>• Group Discussions</strong><br>
-                        <strong>• SSB Workshops</strong><br>
+                            <p class="paragraph">
+                                <strong>• Drill Sessions</strong><br>
+                                <strong>• B/C Exam preparation</strong><br>
+                                <strong>• Social Activities</strong><br>
+                                <strong>• Personality Development Programmes</strong><br>
+                                <strong>• Group Discussions</strong><br>
+                                <strong>• SSB Workshops</strong><br>
                         
                     </p>
                         </div>
@@ -233,7 +244,8 @@ $p='SELECT * FROM footer';
                         <!-- <?php
                                 echo $row['camps'];
                         ?> -->
-                        <p align="justify" class="paragraph">
+                       <marquee scrollamount="2" loop = "true" direction = "up" id = "marquee">
+                         <p  class="paragraph">
                         <strong>Annual Training Camps (ATC)</strong><br>
                         <strong>Centrally Organised Camps (COC)</strong><br>
                         • Leadership Camps (Basic and Advance) <br>
@@ -246,6 +258,7 @@ $p='SELECT * FROM footer';
                         <strong>Youth Exchange Programme (YEP)</strong><br>
                         <strong>NCC Social Service Activities</strong><br>
                     </p>
+                       </marquee>
                         </div>
                     </div>
                 </div>
@@ -286,7 +299,7 @@ $p='SELECT * FROM footer';
                               <!-- <?php
                                 echo $row['alumnis'];
                              ?> -->
-                             <p align="justify" class="paragraph">
+                             <p class="paragraph">
                         <strong>Sub Lt </strong>Saravjeet Singh (Indian Navy)<br>
                         <strong>Capt </strong>Parinav Pathak (Indian Army)<br>
                         <strong>Flg officer </strong>Gursimran Singh (Indian Air Force)<br>
