@@ -128,13 +128,13 @@ $p='SELECT * FROM footer';
                             <img src="images/carousel-6.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-7.jpeg">
+                            <img src="images/carousel-7 (2).jpg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-8.jpeg">
+                            <img src="images/carousel-8 (2).jpg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-9.jpeg">
+                            <img src="images/carousel-9.jpg">
                         </div>
                         <!-- <div class="carousel-item ">
                             <img src="images/carousel-10.jpeg" class="img-fluid">
