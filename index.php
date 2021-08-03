@@ -41,8 +41,18 @@ $p='SELECT * FROM footer';
             width: 100%;
         }
 
-        .carousel-item img {
+        .carousel-inner {
+            display: flex;
+            justify-content: center;
+        }
+
+        .carousel-item {
+            width: 1300px;
             height: 600px;
+        }
+
+        .carousel-item img {
+            height: 100%;
             width: 100%;
         }
     </style>
@@ -110,7 +120,7 @@ $p='SELECT * FROM footer';
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/carousel-1.jpeg">
+                            <img src="images/carousel (5).jpeg">
                         </div>
                         <div class="carousel-item ">
                             <img src="images/carousel-2.jpeg">
@@ -119,7 +129,7 @@ $p='SELECT * FROM footer';
                             <img src="images/carousel-3.jpeg">
                         </div>
                         <div class="carousel-item ">
-                            <img src="images/carousel-4.jpeg">
+                            <img src="images/carousel-1.jpeg">
                         </div>
                         <div class="carousel-item ">
                             <img src="images/carousel-5.jpeg">
